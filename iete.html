@@ -42,10 +42,10 @@
              <div class="inverted item">
              <img src="css/images/logo2.jpg" height="55px"><span style="font-family: 'Ropa Sans', sans-serif; font-size:25px;"><span>&nbsp</span> SIES</div>
              
-              <a class="inverted item" style="font-family: 'Ropa Sans', sans-serif;"><i class="paper plane icon right"></i>About</a>
-              <a class="item" style="font-family: 'Ropa Sans', sans-serif;"><i class="calendar icon right"></i>Events</a>
-              <a class="item" style="font-family: 'Ropa Sans', sans-serif;"><i class="users icon"></i>Team</a>
-              <a class="item" style="font-family: 'Ropa Sans', sans-serif;"><i class="handshake icon"></i>Contact</a>
+              <a class="inverted item" href="#about" style="font-family: 'Ropa Sans', sans-serif;"><i class="paper plane icon right" ></i>About</a>
+              <a class="item" style="font-family: 'Ropa Sans', sans-serif;" href="#events"><i class="calendar icon right"></i>Events</a>
+              <a class="item" href="#team" style="font-family: 'Ropa Sans', sans-serif;"><i class="users icon" ></i>Team</a>
+              <a class="item" href="#contact" style="font-family: 'Ropa Sans', sans-serif;"><i class="handshake icon" ></i>Contact</a>
             </div>
           </div>
         </div>
@@ -510,15 +510,17 @@
 $('.ui.dropdown')
   .dropdown()
 ;
-
 function myfunction() {
  $('.ui.basic.modal')
   .modal('show')
 ;
 }
-$('.special.cards .image').dimmer({
+</script>
+<script type="text/javascript">
+  $('.special.cards .image').dimmer({
   on: 'hover'
 });
+
 </script>
 <script src="scripts/aos.js"></script>
   <script>

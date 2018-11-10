@@ -204,10 +204,14 @@ font-weight:bold;
         height: 0;
         overflow: hidden;
     }
-    .google-maps iframe {
+.google-maps iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
     }
+}}
+.masthead{
+  background-image:url('images/10.jpg');
+}

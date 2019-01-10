@@ -2,10 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=320, initial-scale=1, user-scalable=yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="height=device-height, initial-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="viewport" content="width=790">
 	<meta name = "viewport" content = "user-scalable=no, width=device-width"/>
@@ -15,13 +16,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/icon.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
-	<link href="https://fonts.googleapis.com/css?family=Anton|ZCOOL+QingKe+HuangYou" rel="stylesheet">
-	<link href="https://fastcdn.org/Lightbox/2.8.1/css/lightbox.css" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Anton|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+	 --><link href="https://fastcdn.org/Lightbox/2.8.1/css/lightbox.css" rel="stylesheet">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <script>if($(window).width() < 600) 
-{ $('meta[name=viewport]').attr('content','initial-scale=0.54, maximum-scale=0.54'); }
+{ $('meta[name=viewport]').attr('content','initial-scale=0.54, maximum-scale=0.54, user-scalable=no'); }
 </script>
 
 	<style type="text/css">
@@ -33,31 +34,31 @@
 <body class="masthead">
 	<div class="ui grid tablet mobile only row">
 		<div class="ui fixed top inverted menu">
-			<div class="ui floating labeled icon dropdown inverted basic item" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+			<div class="ui floating labeled icon dropdown inverted basic item">
 			 <i class="bars icon"></i>&nbsp MENU
 	<div class="menu">
-		<div class="header" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<div class="header">
 			<i class="italic icon"></i>
 			IETE
 		</div>
 		<div class="divider"></div>
-		<a class="item" href="#home" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<a class="item" href="#home">
 			<i class="home icon"></i>
 			HOME
 		</a>
-		<a class="item" href="#about" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<a class="item" href="#about">
 			<i class="newspaper plane outline icon"></i>
 			ABOUT
 		</a>
-		<a class="item" href="#events" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<a class="item" href="#events">
 			<i class="calendar oultine icon"></i>
 			EVENTS
 		</a>
-		<a class="item" href="#team" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<a class="item" href="#team">
 			<i class="address book outline icon"></i>
 			TEAM
 		</a>
-		<a class="item" href="#contact" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+		<a class="item" href="#contact">
 			<i class="envelope outline icon"></i>
 			CONTACT
 		</a>
@@ -69,15 +70,15 @@
 		<div class="ui grid">
 			<div class="computer only row">
 				<div class="ui container ui top fixed inverted large menu">
-  <div class="header item" style="font-family: 'ZCOOL QingKe HuangYou', cursive;">
+  <div class="header item">
     IETE
   </div>
   <div class="right menu">
-  <a class="item" href="#home" style="font-family: 'ZCOOL QingKe HuangYou', cursive;"><i class="home icon"></i>HOME</a>
-  <a class="item" href="#about" style="font-family: 'ZCOOL QingKe HuangYou', cursive;"><i class="newspaper plane outline icon"></i>ABOUT</a>
-  <a class="item" href="#events" style="font-family: 'ZCOOL QingKe HuangYou', cursive;"><i class="calendar outline icon"></i>EVENT</a>
-  <a class="item" href="#team" style="font-family: 'ZCOOL QingKe HuangYou', cursive;"><i class="address book outline icon"></i>TEAM</a>
-  <a class="item" href="#contact" style="font-family: 'ZCOOL QingKe HuangYou', cursive;"><i class="envelope oultine icon"></i>CONTACT</a>
+  <a class="item" href="#home"><i class="home icon"></i>HOME</a>
+  <a class="item" href="#about"><i class="newspaper plane outline icon"></i>ABOUT</a>
+  <a class="item" href="#events"><i class="calendar outline icon"></i>EVENT</a>
+  <a class="item" href="#team" ><i class="address book outline icon"></i>TEAM</a>
+  <a class="item" href="#contact"><i class="envelope oultine icon"></i>CONTACT</a>
   </div>
   
 </div>
@@ -105,7 +106,7 @@
 		
 	 <!--  about -->
 	<section id="about">
-		<div class="">
+		
 		<div class="ui centered aligned icon header">
 			<i class="newspaper icon"></i>
 			<h2  class="ui horizontal divider header ui container ui header" >ABOUT US</h2>
@@ -150,19 +151,18 @@
 			</div>
 	 </div>
 
-	</div>
+	
 	</section>
 <!-- EVENTS -->
 	<section id="events">
-		<br><br>
-		<div class="">
+		<div><br>
 			<div class="ui centered aligned icon header"><i class="calendar outline icon right"></i><h2 class="ui horizontal divider header ui container">WE ORGANIZE</h2></div>
 	<section id="wrapper" class="skewed shadow">
     <div class="layer bottom">
       <div class="content-wrap">
         <div class="content-body">
           <h1>MINDSPARK</h1>
-          <p class="ui justified container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam temporibus dolore vero reiciendis atque debitis. Sequi at consequatur deserunt?</p>
+          <p class="ui justified container">MINDSPARK 4.0 is an intercollegiate event having three rounds with countless challenges. </p>
         </div>
         <img src="css/images/6.gif" alt="">
       </div>
@@ -172,7 +172,8 @@
         <div class="content-wrap">
           <div class="content-body">
             <h1>TECHXTER</h1>
-            <p class="ui justified container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam temporibus dolore vero reiciendis atque debitis. Sequi at consequatur deserunt?</p>
+            <p class="ui justified container">A National Level Technical Paper Presentation, open to all 
+the branches of engineering.</p>
           </div>
           <img src="css/images/5.gif" alt="">
         </div>
@@ -180,6 +181,64 @@
 
       <div class="handle"></div>
 	</section>
+	<!-- <div class="ui tertiary padded segment ui container">
+			<div class="ui two column stackable grid">
+				<div class="column">
+						<h3 class="ui centered aligned header icon "><i class="circular file alternate icon"></i> TECHXTER</h3>
+						<div class="ui tertiary segment ui container center align row">
+							<img src="css/images/6.gif" width="75%" height="50%">
+						</div>
+						<div class="ui container center aligned row ui tertiary segment">
+					      <div class="header">
+                          About Techxter
+                          </div>
+                          <p>TECHXTER 7.0 is a National Level Technical Paper Presentation, open to all 
+                           the branches of engineering. This event is specially designed in such a way 
+                           that it tests all aspects of the students' knowledge on varied topics.
+                          </p>
+                        </div>
+						<div class="ui container center aligned row">
+							<div class="ui green animated fade button">
+								<div class="visible content">VIEW SITE</div>
+								<div class="hidden content"><i class="file icon"></i></div>
+							</div>
+						</div>
+				</div>
+				<div class="ui grid container mobile only row">
+				 <div class="column">
+						<div class="ui horizontal inverted divider">
+							<i class="columns icon"></i>
+						</div>
+				 </div>
+			 </div>
+				<div class="column">
+                  <h3 class="ui centered aligned header icon"><i class=" circular bolt icon"></i>MINDSPARK</h3>
+				    <div class="ui tertiary segment ui container center align row">
+						<img src="css/images/5.gif" width="75%" height="50%">
+					</div>
+					<div class="ui container center aligned row ui tertiary segment">
+					  <div class="header">
+                        About Mindspark
+                       </div>
+                       <p>MINDSPARK 4.0 The much awaited Cognition 2018 is around the corner and the IETE Students` Forum is conducting MINDSPARK 4.0, an intercollegiate quiz event. MINDSPARK 4.0 is an intercollegiate event having three rounds with countless challenges. </p>
+                    </div>
+                   <div class="ui container center aligned row">
+                   	<div class="ui red animated fade button">
+                   	<div class="visible content">VIEW SITE</div>
+                   	<div class="hidden content"><i class="bolt icon"></i></div>
+                   </div>
+                   </div>
+				</div>
+
+			</div>
+			<div class="ui grid container computer only row column">
+					<div class="ui vertical divider">
+						<i class="huge columns icon"></i>
+					</div>
+			</div>
+	 </div>
+
+     -->      
 			<br><br>
 			<div class="ui container ui tertiary segment">
 			<br>
@@ -564,9 +623,46 @@
 				</div>
 
 			</div>
-			<div class="column">
-				<br><br>
-			 
+			<div class="column" data-aos="fade-left" data-aos-delay="200">
+				<h1 class="center aligned ui header">CONTACT US</h1>
+			 <div class="ui basic segment content">
+			 	<h4 class="center aligned ui header">
+  					<i class="circular inverted home icon"></i>
+  					<div class="content">
+    					SIES GST , Sector-5 , Nerul , Navi Mumbai
+  					</div>
+				</h4>
+				<h4 class="center aligned ui header">
+  					<i class="circular inverted inbox icon"></i>
+  					<div class="content">
+    					iete-council@siesgst.ac.in
+  					</div>
+				</h4>
+				<h4 class="center aligned ui header">
+  					<i class="circular inverted user icon"></i>
+  					<div class="content">
+    					Shivraj : +91-9833703038
+  					</div>
+				</h4>
+				<h4 class="center aligned ui header">
+  					<i class="circular inverted user icon"></i>
+  					<div class="content">
+    					Rashmi : +91-8879367768
+  					</div>
+				</h4>
+				<h4 class="center aligned ui header">
+  					<i class="circular inverted user icon"></i>
+  					<div class="content">
+    					Ruchira : +91-9768784710
+  					</div>
+				</h4>
+				<h4 class="center aligned ui header">
+  					<i class="circular inverted globe icon"></i>
+  					<div class="content">
+    					www.siesgst.edu.in
+  					</div>
+				</h4>
+
 			</div>
 		</div>
 	

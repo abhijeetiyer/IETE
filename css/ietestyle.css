@@ -122,25 +122,35 @@ body{
     text-align:justify;
     font-size:70%;
   }
+  #wrapper{
+    position: relative;
+    width:100%;
+    min-height:100vw;
+    overflow: hidden;
+  }
+  
   .layer img{
   position:absolute;
-  width:30%;
-  top:57%;
-  left:45%;
+  width:60%;
+  top:50%;
+  height:70%;
+  left:50%;
   transform:translate(-50%,-50%);
 }
 
   .top .content-body{
-left:1%;
+left:-12%;
 top:50%;
 color:#000;
-font-size:11px;
+font-size:9px;
 font-weight:bold;
+max-width:250px;
 }
 .bottom .content-body{
-  left:63%;
-  top:50%;
-  font-size:11px;
+  left:60%;
+  top:125%;
+  font-size:9px;
+  max-width:300px;
 }
 
 .handle{

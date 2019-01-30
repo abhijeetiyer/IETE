@@ -16390,11 +16390,11 @@ ol.ui.list ol li,
 .ui.menu .ui.list > .item,
 .ui.menu .ui.list .list > .item {
   display: list-item;
-  table-layout: fixed;
+
   background-color: transparent;
   list-style-type: none;
   list-style-position: outside;
-  padding: 0.21428571em 0em;
+  padding: 0.71428571em 0em;
   line-height: 1.14285714em;
 
 }
@@ -35279,6 +35279,7 @@ a.ui.nag {
 
 .ui.top.popup {
   margin: 0em 0em 0.71428571em;
+
 }
 
 .ui.top.left.popup {

@@ -57,7 +57,7 @@ body{
 }
 
 .bottom .content-body{
-  right:5%;
+  right:100%;
 }
 
 .bottom h1{
@@ -72,7 +72,7 @@ body{
 }
 
 .top .content-body{
-  left: 5%;
+  left: 100%;
   color:#222;
 }
 
@@ -88,7 +88,7 @@ body{
 }
 
 .skewed .handle{
-  top:50%;
+  top:70%;
   transform:rotate(30deg) translateY(-50%);
   height: 200%;
   transform-origin:top;
@@ -151,7 +151,7 @@ font-weight:bold;
 max-width:400px;
 }
 .bottom .content-body{
-  left:60%;
+  left:55%;
   top:180%;
   font-size:12px;
   max-width:500px;
@@ -275,7 +275,7 @@ max-width:400px;
 }
 
 .bottom .content-body{
-  right:5%;
+  right:18%;
 }
 
 .bottom h1{
@@ -301,7 +301,7 @@ max-width:400px;
   background-color: #FDAB00;
   width:5px;
   top:0;
-  left: 50%;
+  left: 60.5%;
   z-index:3;
 }
 
@@ -340,16 +340,47 @@ max-width:400px;
 .top .content-body{
   left: 5%;
   color:#222;
-  font-size:3vw;
+  font-size:2.3vw;
 }
 .bottom .content-body{
   right:5%;
-  font-size:3vw;
+  font-size:2.3vw;
 }
 
 }
-.owl-theme .item{
-  margin-right:120px;
-  
+.menu_item {
 
+   &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 0; right: 0;
+        height: 2px;
+        background-color: $red;
+    }
+    &:before {
+        opacity: 0;
+        transform: translateY(- $distance);
+        transition: transform 0s $easeOutBack, opacity 0s;
+    }
+    &:after {
+        opacity: 0;
+        transform: translateY($distance/2);
+        transition: transform $duration $easeOutBack, opacity $duration;
+    }
+    &:hover,
+    &:focus {
+        &:before,
+        &:after {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        &:before {
+            transition: transform $duration $easeOutBack, opacity $duration;
+        }
+        &:after {
+            transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
+        }
+    }
 }
